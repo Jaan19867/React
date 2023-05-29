@@ -3,6 +3,11 @@ const person={
 
     name:'Riz'
 };
+const thirdPerson={
+    ...person
+
+};
+console.log(thirdPerson);
 const secondPerson=person;
 person.name='Azad';
 console.log(secondPerson);
@@ -11,4 +16,5 @@ let a=6;
 let b=a;
 a++;
 console.log(b);
+console.log(thirdPerson);
 //so uper ke case me ye primitve data type he
